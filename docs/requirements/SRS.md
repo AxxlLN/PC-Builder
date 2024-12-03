@@ -29,25 +29,25 @@
 Интерфейс приложения будет включать:
 - **Экран регистрации:** позволяет пользователям зарегистрироваться или войти в аккаунт.
 
-![Image1]()
+![Image1](https://github.com/AxxlLN/PC-Builder/blob/main/docs/mockups/mockup1.png)
 - **Экран конфигураций:** позволяет пользователям начать подборку комплектующих и просматривать уже готовые их сборки.
 
-![Image2]()
+![Image2](https://github.com/AxxlLN/PC-Builder/blob/main/docs/mockups/mockup2.png)
 - **Экран подбора комплектующих** позволяет пользователям выбирать различные комплетующие для ПК.
 
-![Image3]()
+![Image3](https://github.com/AxxlLN/PC-Builder/blob/main/docs/mockups/mockup3.png)
 - **Экран избранное:** избранные пользователем сборки ПК.
 
-![Image4]()
+![Image4](https://github.com/AxxlLN/PC-Builder/blob/main/docs/mockups/mockup4.png)
 - **Экран поиска:** поиск уже готовых сборок ПК для разных задач.
 
-![Image5]()
+![Image5](https://github.com/AxxlLN/PC-Builder/blob/main/docs/mockups/mockup5.png)
 - **Экран настроек:** позволяет выбрать тему приложения.
 
-![Image6]()
+![Image6](https://github.com/AxxlLN/PC-Builder/blob/main/docs/mockups/mockup6.png)
 - **Профиль:** позволяет выйти из аккаунта или сменить пароль.
 
-![Image7]()
+![Image7](https://github.com/AxxlLN/PC-Builder/blob/main/docs/mockups/mockup7.png)
 
 **Таблица "действие пользователя - реакция":**
 
