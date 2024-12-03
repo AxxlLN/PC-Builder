@@ -6,7 +6,7 @@
 
 Язык: Kotlin.
 
-[SRS of program]()
+[SRS of program](https://github.com/AxxlLN/PC-Builder/blob/main/docs/requirements/SRS.md)
 
 [Events Stream]()
 
