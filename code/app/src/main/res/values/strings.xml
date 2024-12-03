@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Конфигуратор ПК</string>
+
+    <string name="authentication_sign_up_button_text_create_account">Создать аккаунт</string>
+    <string name="authentication_sign_up_text_view_create">Создать</string>
+    <string name="authentication_sign_up_edit_text_hint_email">example@gmail.com</string>
+    <string name="authentication_sign_up_edit_text_hint_enter_password">Введите пароль</string>
+    <string name="authentication_sign_up_edit_text_hint_repeat_password">Повторите пароль</string>
+    <string name="authentication_sign_up_text_view_your_email">Ваша почта</string>
+    <string name="authentication_sign_up_text_view_password">Пароль</string>
+    <string name="authentication_sign_up_text_view_сonfirm_your_password">Подтвердите пароль</string>
+    <string name="authentication_sign_up_text_view_already_have_an_account">У вас уже есть аккаунт?</string>
+    <string name="authentication_sign_up_button_text_log_in"><u>Войти</u></string>
+    <string name="authentication_log_in_text_view_log_in">Войти</string>
+    <string name="authentication_log_in_text_view_have_not_account">У вас нет аккаунта?</string>
+    <string name="authentication_log_in_text_view_forgot_password">Забыли пароль?</string>
+    <string name="authentication_log_in_button_text_sing_up"><u>Создать</u></string>
+
+    <string name="configurator_text_view_title_configurator">Конфигуратор</string>
+    <string name="configurator_text_view_have_not_configurations">У вас пока что нет\nготовых конфигураций (</string>
+    <string name="configurator_text_view_create_configuration">Создать конфигурацию</string>
+    <string name="configurator_text_view_new_configuration">Новая конфигурация</string>
+    <string name="configurator_text_view_save_configuration">Сохранить конфигурацию</string>
+    <string name="configurator_text_view_smart_advisor">Умный конфигуратор</string>
+
+    <string name="navigation_bar_text_view_configuration">Конфигуратор</string>
+    <string name="navigation_bar_text_view_favorite">Избранное</string>
+    <string name="navigation_bar_text_view_search">Поиск</string>
+    <string name="navigation_bar_text_view_settings">Настройки</string>
+    <string name="navigation_bar_text_view_account">Аккаунт</string>
+
+    <string name="account_text_view_exit_from_account">Выйти из аккаунта</string>
+    <string name="account_text_view_name">Name</string>
+
+    <string name="settings_button_setting_theme">Настройка темы</string>
+    <string name="settings_button_change_name">Сменить имя</string>
+    <string name="settings_button_change_password">Изменить пароль</string>
+    <string name="settings_theme_change_light">Светлая</string>
+    <string name="settings_theme_change_dark">Темная</string>
+    <string name="settings_theme_change_system">Системная</string>
+    <string name="settings_text_view_new_password">Новый пароль</string>
+    <string name="settings_text_view_old_password">Старый пароль</string>
+    <string name="settings_text_view_confirm_new_password">Повторите новый пароль</string>
+
+    <string name="text">Текст</string>
+
+    <string name="btn_text_add">Добавить</string>
+    <string name="btn_text_accept_changes">Принять изменения</string>
+    <string name="btn_text_delete">Удалить</string>
+    <string name="btn_text_price_up">↑</string>
+    <string name="btn_text_price_down">↓</string>
+    <string name="btn_text_price">Цена</string>
+
+    <string name="error">Ошибка</string>
+    <string name="error_authentication_email_is_invalid">Адрес электронной почты введён неверно</string>
+    <string name="error_authentication_password_is_too_short">Длина пароля должна быть больше 6 символов</string>
+    <string name="error_authentication_password_is_invalid">Пароль введен не верно</string>
+    <string name="error_authentication_password_does_not_match">Пароли не совпадают</string>
+    <string name="error_change_password_current_user_does_not_exist">Текущий пользователь не найден</string>
+    <string name="error_change_password_old_password_is_invalid">Вы не правильно ввели старый пароль</string>
+    <string name="error_configuration_processor_socket">Сокет процессора несовместим с сокетом процессора на материнской плате</string>
+    <string name="error_configuration_cpu_is_empty">Процессор является обязательной комплектующей</string>
+    <string name="error_configuration_motherboard_is_empty">Материнская плата является обязательной комплектующей</string>
+    <string name="error_configuration_case_is_empty">Корпус является обязательной комплектующей</string>
+    <string name="error_configuration_cooler_for_cpu_is_empty">Кулер для процессора является обязательной комплектующей</string>
+    <string name="error_configuration_ram_is_empty">Оперативная память является обязательной комплектующей</string>
+    <string name="error_configuration_data_storage_is_empty">Устройство для хранения данных является обязательной комплектующей</string>
+    <string name="error_configuration_power_supply_unit_is_empty">Блок питания является обязательной комплектующей</string>
+    <string name="error_configuration_cpu_without_integrated_graphics_core">Вы выбрали процессор без встроенного графического ядра. Для работоспособности компьютера нужна видеокарта</string>
+    <string name="error_configuration_case_does_not_support_form_factor_of_motherboard">Корпус не поддерживает форм-фактор материнской платы</string>
+    <string name="error_configuration_cpu_cooler_does_not_support_motherboard_socket">Кулер для процессора не поддерживает сокет материнской платы</string>
+    <string name="error_configuration_motherboard_doesnt_support_much_RAM">В материнской плате нет столько слотов под оперативную память</string>
+    <string name="error_configuration_motherboard_doesnt_support_much_video_card">В материнской плате нет столько слотов для видеокарт</string>
+    <string name="error_configuration_motherboard_does_not_support_type_of_ram">Материнская плата не поддерживает тип оперативной памяти</string>
+    <string name="error_configuration_pin_cpu_is_not_compatible">Разъем питания для процессора у блока питания не совместим с разъемами питания процессора</string>
+    <string name="error_configuration_case_does_not_support_size_of_video_card">Выбранный корпус не поддерживает размер выбранной видеокарты</string>
+    <string name="error_configuration_maximum_power_configuration_greater_than_power_supply">Максимальная потребляемая мощность вашей конфигурации больше чем мощность блока питания</string>
+
+    <string name="ruble_symbol">₽</string>
+    <string name="accessory_description">Описание</string>
+    <string name="accessory_name">Название</string>
+
+</resources>
