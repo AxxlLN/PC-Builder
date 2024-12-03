@@ -10,6 +10,6 @@
 
 [Events Stream]()
 
-[User interface images]()
+[User interface images](https://github.com/AxxlLN/PC-Builder/tree/main/docs/mockups)
 
 [Tests]()
