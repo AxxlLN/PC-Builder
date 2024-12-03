@@ -1,0 +1,103 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.jetbrains.android)
+    alias(libs.plugins.google.services)
+    alias(libs.plugins.compose.compiler)
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.configuratorpcjetpackcompose"
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_version
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+    namespace 'com.example.configuratorpcjetpackcompose'
+}
+
+dependencies {
+    constraints {
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0") {
+            because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
+        }
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0") {
+            because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
+        }
+    }
+
+    implementation libs.coil.compose
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.core.ktx
+    implementation libs.material.icons.extended
+    implementation libs.ui
+    implementation libs.navigation.compose
+    implementation libs.lifecycle.viewmodel.compose
+    implementation libs.lifecycle.runtime.compose
+    implementation libs.material
+    implementation libs.ui.tooling.preview
+    implementation libs.lifecycle.runtime.ktx
+    implementation libs.runtime.rxjava2
+    implementation libs.runtime.rxjava3
+    implementation libs.activity.compose
+    implementation libs.firebase.auth.ktx
+    implementation libs.fragment.ktx
+    implementation libs.arch.extensions
+    implementation libs.kotlinx.coroutines.core.jvm
+    testImplementation libs.junit
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.runner
+    androidTestImplementation libs.rules
+    testImplementation libs.mockito.core
+    testImplementation libs.mockito.inline
+    androidTestImplementation libs.mockito.android
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.ui.test.junit4
+    debugImplementation libs.ui.tooling
+    debugImplementation libs.ui.test.manifest
+    implementation platform(libs.firebase.bom)
+    implementation libs.activity.compose
+    implementation libs.lifecycle.viewmodel.compose
+    implementation libs.firebase.auth
+    implementation libs.firebase.firestore
+    implementation libs.firebase.analytics.ktx
+    implementation libs.runtime.livedata
+    implementation libs.gson
+    implementation libs.firebase.ui.storage
+    implementation libs.picasso
+    implementation libs.foundation.android
+}
