@@ -12,4 +12,4 @@
 
 [User interface images](https://github.com/AxxlLN/PC-Builder/tree/main/docs/mockups)
 
-[Tests]()
+[Tests](https://github.com/AxxlLN/PC-Builder/blob/main/docs/tests/TestPlan.md)
