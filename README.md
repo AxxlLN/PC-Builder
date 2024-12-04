@@ -8,7 +8,7 @@
 
 [SRS of program](https://github.com/AxxlLN/PC-Builder/blob/main/docs/requirements/SRS.md)
 
-[Events Stream]()
+[Events Stream](https://github.com/AxxlLN/PC-Builder/blob/main/docs/requirements/events-stream.md)
 
 [User interface images](https://github.com/AxxlLN/PC-Builder/tree/main/docs/mockups)
 
